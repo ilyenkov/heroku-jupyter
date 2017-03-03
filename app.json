@@ -5,8 +5,9 @@
   ],
   "env": 
   {    
-    "JUPYTER_NOTEBOOK_PASSWORD": {
-      "description": "IMPORTANT! Set a secure password."
+    "JUPYTER_NOTEBOOK_PASSWORD_DISABLED": {
+      "description": "IMPORTANT! Set a secure password.",
+      "value": "DangerZone!"
     },
     "JUPYTER_NOTEBOOK_ARGS": {
       "description": "Additional command line arguments.",
