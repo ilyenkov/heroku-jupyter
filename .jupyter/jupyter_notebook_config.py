@@ -36,7 +36,7 @@ try:
         # Set a maximum file size, if desired.
         #c.PostgresContentsManager.max_file_size_bytes = 1000000 # 1MB File cap
         
-        c.NotebookApp.file_to_run = 'notebooks/index.ipynb'
+        c.NotebookApp.file_to_run = 'https://github.com/ilyenkov/heroku-jupyter/raw/master/notebooks/index.ipynb'
 
     ### CloudFoundry specific settings
     vcap_application_json = os.getenv('VCAP_APPLICATION', None)
