@@ -1,10 +1,5 @@
 name: ipython-notebook
 dependencies:
-  - python=2.7
-  - numpy
-  - pandas
-  - seaborn
-  - matplotlib
   - notebook
   - ipywidgets
   - requests
