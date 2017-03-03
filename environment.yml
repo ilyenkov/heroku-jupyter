@@ -5,7 +5,6 @@ dependencies:
   - pandas
   - seaborn
   - matplotlib
-  - folium
   - notebook
   - ipywidgets
   - requests
